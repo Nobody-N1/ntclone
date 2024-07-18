@@ -1,0 +1,55 @@
+#third{
+    background-color: #F9F8F7;
+    width: 100vw;
+    padding: 48px 0; 
+    .wrapper{
+        width: 1182px;
+        padding: 0 32px 0 3px;
+        .innerwrap{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            h4{
+                font-family: Extrabold;
+                font-size: 32px;
+                color: #0F1826;
+                
+            }
+            p{
+                font-family: Semibold;
+                color: #607987;
+            }
+            .cards{
+                width: 542px;
+                display: flex;
+                align-items: center;
+                gap: 33px;
+                .card{
+                    display: flex;
+                    align-items: start;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 254.5px;
+                    height: 97px;
+                    border-radius: 4px;
+                    border: 1px solid #607987;
+                    padding: 17px 16px 17px 17px;
+                    gap: 12px;
+                    h6{
+                        font-family: Bold;
+                        font-size: 20px;
+                    }
+                    p{
+                        font-family: Medium;
+                        color: #607987;
+                    }
+                }
+            }
+            .span{
+                font-family: Bold;
+                color: #0EB182;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,66 @@
+#first {
+    height: 504px;
+    background-color: #f1f0ee;
+    .wrapper {
+        position: relative;
+        height: 504px;
+        .left {
+            width: 325px;
+            padding-top: 116px;
+            h4 {
+                font-family: Bold;
+                font-size: 40px;
+                color: black;
+                span {
+                    color: #ba8d5b;
+                }
+            }
+            p {
+                font-size: 18px;
+                color: #607987;
+                margin: 19px 0 70px 0;
+            }
+            button {
+                width: 208.8px;
+                height: 48px;
+                border-radius: 100px;
+                background-color: #ba8d5b;
+                color: white;
+                font-family: Bold;
+            }
+        }
+        .heroimg {
+            position: absolute;
+            bottom: 0;
+            right: 14px;
+            z-index: 2;
+        }
+        .heroillustration {
+            position: absolute;
+            bottom: 0;
+            right: -113px;
+        }
+    }
+}
+@media (prefers-color-scheme: dark) {
+    #first {
+        background-color: #09111b;
+
+        .wrapper {
+            .left {
+                h4 {
+                    color: white;
+                    span {
+                        color: #ba8d5b;
+                    }
+                }
+                p {
+                    color: white;
+                }
+                button {
+                    color: black;
+                }
+            }
+        }
+    }
+}

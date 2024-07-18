@@ -1,0 +1,152 @@
+footer{
+    height: 457px;
+    background-color: #F9F8F7;
+    padding: 35px 0 60px 0;
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            width: 253.03px;
+            .top{
+                display: flex;
+                flex-direction: column;
+                gap: 22px;
+                p{
+                    font-family: Semibold;
+                    font-size: 14px;
+                    color: #607987;
+                    line-height: 22px;
+                }
+            }
+            .bottom{
+                width: 186px;
+                margin-top: 70px;
+                h6{
+                    .bold{
+                        width: 122px;
+                        font-family: Bold;
+                        font-size: 14px;
+                        color: #607987;
+                    }
+                    font-family: Semibold;
+                    font-size: 14px;
+                    color: #607987;
+                }
+            }
+        }
+        .right{
+            width: 831.97px;
+            display: flex;
+            flex-direction: column;
+            .top{
+                display: flex;
+                margin-bottom: 70px;
+                .one{
+                    width: 274.55px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        font-family: Bold;
+                        color: #0F1826;
+                        margin-bottom: 50px;
+                    }
+                    p{
+                        font-family: Semibold;
+                        font-size: 14px;
+                        color: #607987;
+                    }
+                }
+                .two{
+                    width: 274.55px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        font-family: Bold;
+                        color: #0F1826;
+                        margin-bottom: 50px;
+                    }
+                    p{
+                        font-family: Semibold;
+                        font-size: 14px;
+                        color: #607987;
+                    }
+                }
+                .three{
+                    width: 274.55px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        font-family: Bold;
+                        color: #0F1826;
+                        margin-bottom: 50px;
+                    }
+                    p{
+                        font-family: Semibold;
+                        font-size: 14px;
+                        color: #607987;
+                    }
+                }
+            }
+            .bottom{
+                display: flex;
+                border-top: 1px solid #d6d1c9;
+                padding: 10px 0 0 0;
+                .one{
+                    width: 274.55px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h3{
+                        font-family: Bold;
+                        color: #0F1826;
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        font-family: Semibold;
+                        font-size: 14px;
+                        color: #607987;
+                    }
+                }
+                .two{
+                    width: 274.55px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0;
+                    .icons{
+                        display: flex;
+                        gap: 10px;
+                    }
+                    h3{
+                        font-family: Bold;
+                        color: #0F1826;
+                        margin-bottom: 25px;
+                    }
+                    p{
+                        font-family: Semibold;
+                        font-size: 14px;
+                        color: #607987;
+                    }
+                }
+                .three{
+                    width: 274.55px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h3{
+                        font-family: Bold;
+                        color: #0F1826;
+                        margin-bottom: 25px;
+                    }
+                    p{
+                        font-family: Semibold;
+                        font-size: 14px;
+                        color: #607987;
+                    }
+                }
+            }
+        }
+    }
+}
