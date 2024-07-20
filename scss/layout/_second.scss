@@ -29,6 +29,7 @@
                 .texts{
                     display: flex;
                     flex-direction: column;
+                    gap: 14px;
                     h5{
                         font-family: Semibold;
                         font-size: 20px;
@@ -50,7 +51,7 @@
             align-items: center;
             justify-content: space-between;
             background-color: white;
-            font-family: Senibold;
+            font-family: Semibold;
             color: rgba(14, 177, 130, 1);
         }
     }

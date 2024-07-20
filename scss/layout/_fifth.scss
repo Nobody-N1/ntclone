@@ -61,8 +61,13 @@
                                 padding: 14px 17px; 
                                 font-family: Regular;
                                 font-size: 14px;
-                                color: #C4C4C4;
+                                
                                 outline: none;
+                                &::placeholder{
+                                    font-family: Regular;
+                                    font-size: 14px;
+                                    color: #C4C4C4;
+                                }
                             }
                             .blackspan{
                                 width: 368px;
@@ -70,13 +75,26 @@
                                 border-radius: 100px;
                                 border: 1px solid rgba(218, 218, 218, 1);
                                 background-color: rgba(255, 255, 255, 1);
-                                padding: 14px 17px; 
+                                padding: 0 17px; 
                                 font-family: Regular;
                                 font-size: 16px;
-                                color: #C4C4C4;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 3px;
                                 outline: none;
-                                .black{
-                                    color: #000000;
+                                
+                                input{
+                                    margin-top: 3px;
+                                    width: 100%;
+                                    height: 19px;
+                                    border: none;
+                                    outline: none;
+                                    &::placeholder{
+                                        font-family: Regular;
+                                        font-size: 16px;
+                                        color: #C4C4C4;
+                                    }
                                 }
                             }
                         }
@@ -98,6 +116,10 @@
                             height: 48px;
                             border-radius: 100px;
                             padding: 13px 129.16px;
+                            font-size: 16px;
+                            color: white;
+                            margin-top: 22px;
+                            font-family: Bold;
                             background-color: #BA8D5B;
                         }
                     }

@@ -1,93 +1,186 @@
-#fourth{
-    .wrapper{
-        padding: 48px 0;
-        .top{
-            display: flex;
-            flex-direction: column;
-            gap: 48px;
-            .texts{
-                display: flex;
-                flex-direction: column;
-                gap: 24px;
-                h4{
-                    font-family: Extrabold;
-                    font-size: 32px;
-                    color: #0F1826;
-                }
-                p{
-                    font-family: Semibold;
-                    color: #607987;
-                }
-            }
-            .cards{
-                width: 1118px;
-                display: flex;
-                flex-wrap: wrap;
-                gap: 31px;
-                .card{
-                    width: 160px;
-                    height: 100px;
-                    border-radius: 8px;
-                    padding: 16px 12px;
-                    background-color: #F9F8F7;
-                    .icons{
-                        width: 136px;
-                        height: 68px;
-                    }
-                }
-            }
-          
+#fourth {
+  .wrapper {
+    padding: 48px 0;
+    .top {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+      .texts {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        h4 {
+          font-family: Extrabold;
+          font-size: 32px;
+          color: #0f1826;
         }
-        .bottom{
-            padding: 40px 0 60px 0;
-            .texts{
-                display: flex;
-                flex-direction: column;
-                gap: 24px;
-                h4{
-                    font-family: Extrabold;
-                    font-size: 32px;
-                    color: #0F1826;
-                }
-                p{
-                    font-family: Semibold;
-                    color: #607987;
-                }
-            }
-            .trio{
-                width: 1118px;
-                display: flex;
-                align-items: center;
-                gap: 23.5px;
-                padding: 0 11.75px;
-                &:first-child{
-                    width: 232px;
-                    height: 420px;
-                    background-image: url("../../assets/images/abdumannof.png");
-                    opacity: 50%;
-                    padding: 16px 16px 19.19px 16px;
-                }
-                &:nth-child(2){
-                    width: 232px;
-                    height: 420px;
-                    background-image: url("../../assets/images/salohiddin.png");
-                    padding: 16px 16px 19.19px 16px;
-                }
-                &:nth-child(3){
-                    width: 232px;
-                    height: 420px;
-                    background-image: url("../../assets/images/shahzoda.png");
-                    opacity: 50%;
-                    padding: 16px 16px 19.19px 16px;
-                }
-                &:nth-child(4){
-                    width: 232px;
-                    height: 420px;
-                    background-image: url("../../assets/images/sayfullo.png");
-                    opacity: 50%;
-                    padding: 16px 16px 19.19px 16px;
-                }
-            }
+        p {
+          font-family: Semibold;
+          color: #607987;
         }
+      }
+      .cards {
+        width: 1118px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 31px;
+        .card {
+          width: 160px;
+          height: 100px;
+          border-radius: 8px;
+          padding: 16px 12px;
+          background-color: #f9f8f7;
+          .icons {
+            width: 136px;
+            height: 68px;
+          }
+        }
+      }
     }
+    .bottom {
+      padding: 40px 0 60px 0;
+      .texts {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        h4 {
+          font-family: Extrabold;
+          font-size: 32px;
+          color: #0f1826;
+        }
+        p {
+          font-family: Semibold;
+          color: #607987;
+        }
+      }
+      .trio {
+        width: 1118px;
+        display: flex;
+        align-items: center;
+        margin-top: 48px;
+        justify-content: space-between;
+        gap: 23.5px;
+        padding: 0 11.75px;
+        .trio-card {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          &:first-child {
+            width: 232px;
+            height: 420px;
+            background-image: url("../../assets/images/abdumannof.png");
+            padding: 16px 16px 19.19px 16px;
+            position: relative;
+            .blur {
+              width: 224px;
+              height: 406px;
+              background: linear-gradient(
+                180deg,
+                rgba(0, 0, 0, 0) 0%,
+                rgba(0, 0, 0, 0.37) 69.5%,
+                rgba(0, 0, 0, 0.65) 90.34%
+              );
+              position: absolute;
+              top: 10px;
+              left: 4.2px;
+              border-radius: 20px;
+            }
+          }
+          &:nth-child(2) {
+            width: 232px;
+            height: 420px;
+            background-image: url("../../assets/images/salohiddin.png");
+            padding: 16px 16px 19.19px 16px;
+            position: relative;
+            .blur {
+                width: 224px;
+                height: 406px;
+                background: linear-gradient(
+                  180deg,
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 0.37) 69.5%,
+                  rgba(0, 0, 0, 0.65) 90.34%
+                );
+                position: absolute;
+                top: 10px;
+                left: 4.2px;
+                border-radius: 20px;
+              }
+          }
+          &:nth-child(3) {
+            width: 232px;
+            height: 420px;
+            background-image: url("../../assets/images/shahzoda.png");
+            padding: 16px 16px 19.19px 16px;
+            position: relative;
+            .blur {
+                width: 224px;
+                height: 406px;
+                background: linear-gradient(
+                  180deg,
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 0.37) 69.5%,
+                  rgba(0, 0, 0, 0.65) 90.34%
+                );
+                position: absolute;
+                top: 10px;
+                left: 4.2px;
+                border-radius: 20px;
+              }
+          }
+          &:nth-child(4) {
+            width: 232px;
+            height: 420px;
+            background-image: url("../../assets/images/sayfullo.png");
+            padding: 16px 16px 19.19px 16px;
+            position: relative;
+            .blur {
+                width: 224px;
+                height: 406px;
+                background: linear-gradient(
+                  180deg,
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 0.37) 69.5%,
+                  rgba(0, 0, 0, 0.65) 90.34%
+                );
+                position: absolute;
+                top: 10px;
+                left: 4.2px;
+                border-radius: 20px;
+              }
+          }
+          button {
+            width: 127.67px;
+            height: 40px;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 6px;
+            font-family: Bold;
+            font-size: 12px;
+          }
+          .informations{
+            position: relative;
+            z-index: 5;
+            .data {
+                font-size: 12px;
+                font-family: Semibold;
+                color: white;
+              }
+              .job {
+                font-size: 12px;
+                font-family: Semibold;
+                color: #7cd1ac;
+              }
+              .name {
+                font-family: Bold;
+                color: white;
+                font-size: 16px;
+              }
+          }
+        }
+      }
+    }
+  }
 }
